@@ -13,3 +13,11 @@ else if (randomNumber1 > randomNumber2) {
 else {
     document.querySelector("h1").innerHTML = "Player 2 wins!🚩";
 }
+// Get a reference to the button
+const refreshButton = document.getElementById('refreshButton');
+
+// Add an event listener to the button
+refreshButton.addEventListener('click', () => {
+    // Reload the current page
+    location.reload();
+});

@@ -39,3 +39,10 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+#refreshButton {
+  padding: 5px;
+  border-radius: 20px;
+  margin: 5px;
+  background-color: green;
+  font-weight: bold;
+}
